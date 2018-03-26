@@ -1,0 +1,92 @@
+.menu-container>ul>li{
+    text-align: center;
+    background: rebeccapurple;
+    border: 1px solid #d7d7d7;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #dc290b;
+    font-family: Helvetica;
+    background-image: url('../images/h1bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+#welcome-page{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-welcome{
+    text-align: center;
+    line-height: 30px;
+    color: #6b0302;
+    font-size: 15px;
+}
+
+#menu-page{
+    background: gainsboro;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+#menus{
+    padding-top: 20px;
+    padding-bottom: 20px;         
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
+      ),
+      url('../images/menubg.png')
+}
+
+#menus h1{
+    color: #ffffff;
+}
+
+.view-more{
+    text-align: center;
+    padding: 20px 10px;
+}
+
+#contact-page{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contact-page h2{
+    color: #dc290b;    
+    font-family: 'Arial Narrow Bold'
+}
+
+#contact-page h6{
+    font-weight: bold;
+}
+
+#contact-page p{
+    font-size: 14px;
+}
+
+#bottom-page{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #6b0302;
+}
+
+#bottom-page{
+    color: #fff;
+}
+
+#bottom-page a{
+    color: red;
+}
