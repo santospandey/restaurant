@@ -1,18 +1,26 @@
 .menu-container>ul>li{
     text-align: center;
-    background: rebeccapurple;
-    border: 1px solid #d7d7d7;
+    background: #00CB3F;
+    border-top: 1px solid #d7d7d7;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu-container>ul>li>a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .title{
+    height: 60px;
     width: 100%;
     text-align: center;
     font-size: 35px;
     color: #dc290b;
     font-family: Helvetica;
     background-image: url('../images/h1bg.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: no-repeat;    
     background-position-x: center;
     background-position-y: bottom;
 }
@@ -61,6 +69,9 @@
 #contact-page{
     padding-top: 20px;
     padding-bottom: 20px;
+    background: url('../images/footerbg.jpg');
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 #contact-page h2{
@@ -78,8 +89,8 @@
 
 #bottom-page{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #6b0302;
 }
 
@@ -89,4 +100,53 @@
 
 #bottom-page a{
     color: red;
+}
+
+.sidebar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+    height: 633px;
+    background: orange;
+    z-index: 1000;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+#logo{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.phone-no{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.logo-icons{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-top{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.menu-top p{
+    color: #FF4F67;
+    text-align: center;
+    font-size: 16px;   
+    padding-bottom: 10px; 
+}
+
+.menu-top button{
+    margin-bottom: 20px;
 }
