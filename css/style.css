@@ -150,3 +150,39 @@
 .menu-top button{
     margin-bottom: 20px;
 }
+
+.menu-pics{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-pics figcaption{
+    text-align: center;
+    font-size: 12px;
+}
+
+.appetizer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.appetizer h3{
+    font-size: 24px;
+    color: #FF4F67;
+    font-weight: bold;
+}
+
+.appetizer h4{
+    font-size: 18px;
+    color: #FF4F67;
+    font-weight: bold;
+}
+
+.appetizer th{
+    text-align: left !important;
+}
+
+.gallery{
+    min-height: 200px;    
+}
