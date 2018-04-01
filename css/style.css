@@ -186,3 +186,44 @@
 .gallery{
     min-height: 200px;    
 }
+
+.left-text{
+    text-align: left;
+}
+
+.menu-header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #d7d7d7;   
+}
+
+.menu-detail{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+.menu-detail p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu-detail p mark{
+    color: red;
+    background: #fff;
+}
+
+#catering h3{
+    padding-top: 10px;
+    font-size: 18px;
+    color: red;
+    text-align: center;
+}
+
+#catering p{
+    line-height: 30px;
+    color: darkred;    
+}
